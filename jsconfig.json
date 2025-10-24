@@ -2,7 +2,12 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "@/firebase/*": ["firebase/*"],
+      "@/lib/*": ["lib/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/components/*": ["components/*"]
     }
-  }
+  },
+  "include": ["src"]
 }
