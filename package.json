@@ -1,0 +1,57 @@
+14:35:02.569 Running build in Washington, D.C., USA (East) – iad1
+14:35:02.570 Build machine configuration: 2 cores, 8 GB
+14:35:02.583 Cloning github.com/sebastiancurtze-tech/clutch-kings (Branch: main, Commit: 3c70183)
+14:35:02.603 Skipping build cache, deployment was triggered without cache.
+14:35:02.877 Cloning completed: 294.000ms
+14:35:03.203 Running "vercel build"
+14:35:03.586 Vercel CLI 48.6.0
+14:35:03.906 Installing dependencies...
+14:35:34.788 
+14:35:34.789 added 109 packages in 31s
+14:35:34.789 
+14:35:34.790 7 packages are looking for funding
+14:35:34.790   run `npm fund` for details
+14:35:34.851 Detected Next.js version: 14.2.3
+14:35:34.854 Running "npm run build"
+14:35:34.964 
+14:35:34.964 > clutch-kings@1.0.0 build
+14:35:34.965 > next build
+14:35:34.965 
+14:35:35.518 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+14:35:35.519 This information is used to shape Next.js' roadmap and prioritize features.
+14:35:35.519 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+14:35:35.519 https://nextjs.org/telemetry
+14:35:35.520 
+14:35:35.573   ▲ Next.js 14.2.3
+14:35:35.574 
+14:35:35.632    Creating an optimized production build ...
+14:35:44.707 Failed to compile.
+14:35:44.707 
+14:35:44.708 ./src/app/(auth)/login/page.tsx
+14:35:44.708 Module not found: Can't resolve 'lucide-react'
+14:35:44.708 
+14:35:44.708 https://nextjs.org/docs/messages/module-not-found
+14:35:44.709 
+14:35:44.709 ./src/app/(auth)/login/page.tsx
+14:35:44.709 Module not found: Can't resolve '@/firebase'
+14:35:44.709 
+14:35:44.709 https://nextjs.org/docs/messages/module-not-found
+14:35:44.710 
+14:35:44.710 ./src/app/(auth)/login/page.tsx
+14:35:44.710 Module not found: Can't resolve '@/lib/schemas'
+14:35:44.710 
+14:35:44.710 https://nextjs.org/docs/messages/module-not-found
+14:35:44.710 
+14:35:44.711 ./src/app/(auth)/login/page.tsx
+14:35:44.711 Module not found: Can't resolve '@/hooks/use-toast'
+14:35:44.711 
+14:35:44.711 https://nextjs.org/docs/messages/module-not-found
+14:35:44.711 
+14:35:44.711 ./src/app/(auth)/login/page.tsx
+14:35:44.712 Module not found: Can't resolve '@/components/ui/button'
+14:35:44.712 
+14:35:44.712 https://nextjs.org/docs/messages/module-not-found
+14:35:44.712 
+14:35:44.720 
+14:35:44.721 > Build failed because of webpack errors
+14:35:44.744 Error: Command "npm run build" exited with 1
